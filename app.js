@@ -8,3 +8,9 @@ while (counter < user_ages.length) {
     }
     counter++;
 }
+
+for (let counter = 0; counter < user_ages.length; counter++) {
+    if (user_ages[counter] < 18) {
+        console.log(`${user_names[counter]} you're under 18 years old`)
+    }
+}
